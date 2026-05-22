@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: 'Apeiro---Anonymyzer---007/', // ← ADD THIS
+    base: '/Apeiro---Anonymyzer---007/',
 
     plugins: [react(), tailwindcss()],
 
@@ -20,10 +20,5 @@ export default defineConfig(({ mode }) => {
         '@': path.resolve(__dirname, '.'),
       },
     },
-
-    server: {
-      hmr: process.env.DISABLE_HMR !== 'true',
-    },
   };
 });
-
