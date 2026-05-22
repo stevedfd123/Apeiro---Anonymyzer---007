@@ -1,0 +1,6 @@
+{
+  "name": "Apero CV Anonymizer",
+  "description": "Anonimize your CV, remove contact info, use initials, and add Apero branding.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
